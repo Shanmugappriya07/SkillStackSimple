@@ -1,4 +1,7 @@
-package skillstack;
+package skillstack.ui;
+
+import skillstack.model.Skill;
+import skillstack.service.AppService;
 
 import java.awt.*;
 import java.util.ArrayList;

@@ -1,7 +1,9 @@
-package skillstack;
+package skillstack.ui;
+
+import skillstack.model.User;
+import skillstack.service.AppService;
 
 import java.awt.*;
-import java.awt.event.*;
 
 /** AWT login panel with email and password fields. */
 public class LoginPanel extends Panel {

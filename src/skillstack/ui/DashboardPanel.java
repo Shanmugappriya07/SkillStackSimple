@@ -1,4 +1,9 @@
-package skillstack;
+package skillstack.ui;
+
+import skillstack.model.Certification;
+import skillstack.model.Skill;
+import skillstack.model.User;
+import skillstack.service.AppService;
 
 import java.awt.*;
 import java.io.IOException;

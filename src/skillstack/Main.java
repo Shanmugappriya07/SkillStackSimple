@@ -1,4 +1,6 @@
 package skillstack;
+import skillstack.dao.Database;
+import skillstack.ui.MainFrame;
 
 import java.sql.SQLException;
 

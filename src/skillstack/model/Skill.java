@@ -1,4 +1,4 @@
-package skillstack;
+package skillstack.model;
 
 import java.io.Serializable;
 import java.util.Objects;

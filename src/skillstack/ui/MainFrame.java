@@ -1,8 +1,11 @@
-package skillstack;
+package skillstack.ui;
+
+import skillstack.model.User;
+import skillstack.service.AppService;
 
 import java.awt.*;
 
-/** Main AWT Frame that hosts all panels via CardLayout — no Swing used anywhere. */
+/** Main AWT Frame that hosts all panels via CardLayout */
 public class MainFrame extends Frame {
 
     public static final String CARD_LOGIN     = "LOGIN";
@@ -16,7 +19,7 @@ public class MainFrame extends Frame {
 
     private User currentUser;
 
-    private final AppService      service   = new AppService();
+    private final AppService service   = new AppService();
     private final LoginPanel      login     ;
     private final RegisterPanel   register  ;
     private final DashboardPanel  dashboard ;

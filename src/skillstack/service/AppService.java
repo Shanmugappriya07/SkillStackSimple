@@ -1,4 +1,9 @@
-package skillstack;
+package skillstack.service;
+
+import skillstack.model.Certification;
+import skillstack.dao.Database;
+import skillstack.model.Skill;
+import skillstack.model.User;
 
 import java.io.*;
 import java.time.LocalDate;

@@ -1,9 +1,11 @@
-package skillstack;
+package skillstack.dao;
+
+import skillstack.model.Certification;
+import skillstack.model.Skill;
+import skillstack.model.User;
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 
 /**
  * Database — Singleton JDBC connection + all DAO operations in one class.
